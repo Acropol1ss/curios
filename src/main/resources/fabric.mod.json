@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "curios",
+  "version": "${version}",
+  "name": "Curios API",
+  "description": "A flexible and expandable accessory/equipment API for users and developers. | Portable by LoS Dev",
+  "authors": ["C4"],
+  "contact": {
+    "homepage": "https://github.com/TheIllusiveC4/Curios",
+    "issues": "https://github.com/TheIllusiveC4/Curios/issues"
+  },
+  "license": "LGPL-3.0-or-later",
+  "icon": "assets/curios/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["top.theillusivec4.curios.CuriosFabricMod"],
+    "client": ["top.theillusivec4.curios.client.CuriosFabricClientMod"]
+  },
+  "mixins": ["curios.mixins.json"],
+  "accessWidener": "curios.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

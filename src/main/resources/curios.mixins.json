@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "package": "top.theillusivec4.curios.mixin.core",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "curios.refmap.json",
+  "mixins": [
+    "AccessorAbstractContainerMenu",
+    "AccessorAbstractContainerScreen",
+    "InvokerScreen",
+    "AccessorInventoryScreen",
+    "AccessorEntity",
+    "InvokerEntitySelectorOptions",
+    "MixinApplyBonusCount",
+    "MixinCuriosTriggersEquip",
+    "MixinEnchantedCountIncreaseFunction",
+    "MixinInventory",
+    "MixinContainerCuriosPredicate",
+    "MixinExperienceOrb",
+    "MixinLivingEntity",
+    "MixinNbtPredicate",
+    "MixinPiglinAi",
+    "MixinPowderSnowBlock",
+    "MixinV1460",
+    "MixinLivingEntityDrops",
+    "MixinEnderMan",
+    "MixinServerPlayerGameMode",
+    "AccessorServerPlayerGameMode",
+    "MixinBlockExperience",
+    "InvokerArgumentTypeInfos"
+  ],
+  "client": [
+    "MixinLivingEntityRenderer"
+  ],
+  "minVersion": "0.8"
+}

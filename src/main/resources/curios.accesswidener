@@ -1,0 +1,9 @@
+accessWidener v2 named
+
+accessible field net/minecraft/client/MouseHandler mouseGrabbed Z
+accessible field net/minecraft/client/gui/screens/inventory/InventoryScreen xMouse F
+accessible field net/minecraft/client/gui/screens/inventory/InventoryScreen yMouse F
+accessible field net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen recipeBookComponent Lnet/minecraft/client/gui/screens/recipebook/RecipeBookComponent;
+accessible class net/minecraft/world/inventory/ArmorSlot
+accessible field net/minecraft/world/inventory/InventoryMenu SLOT_IDS [Lnet/minecraft/world/entity/EquipmentSlot;
+accessible field net/minecraft/world/inventory/InventoryMenu TEXTURE_EMPTY_SLOTS Ljava/util/Map;
